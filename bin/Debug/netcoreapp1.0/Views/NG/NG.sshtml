@@ -8,9 +8,9 @@
     </head>
     <body>
         <center>
-            <h1>Gold Game</h1>
+            <h1>Find The Gold!</h1>
             <div id="log">
-                <h6>Total Gold: @ViewBag.gold </h6>
+                <h5>Total Gold: @ViewBag.gold </h5>
                 <p>@ViewBag.log</p>
             </div>
 

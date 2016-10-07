@@ -4,6 +4,7 @@
     padding: 10px;
     margin: 10px;
 }
+
 #log{
     overflow:scroll;
     border: 1px solid slategrey;
@@ -11,11 +12,11 @@
     margin: 10px;
     width: 294px;
     height: 250px;
-    }
+}
 
-    #log.p{
-        font-size: 10px;
-    }
+#log.p{
+    font-size: 10px;
+}
 
 #farmButton{
     background-color: #00aba9;
