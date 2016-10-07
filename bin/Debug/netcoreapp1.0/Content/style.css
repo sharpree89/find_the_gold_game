@@ -1,0 +1,46 @@
+.gold{
+    display: inline-block;
+    border: 1px solid slategrey;
+    padding: 10px;
+    margin: 10px;
+}
+#log{
+    overflow:scroll;
+    border: 1px solid slategrey;
+    padding: 10px;
+    margin: 10px;
+    width: 294px;
+    height: 250px;
+    }
+
+    #log.p{
+        font-size: 10px;
+    }
+
+#farmButton{
+    background-color: #00aba9;
+    color: white;
+}
+
+#caveButton{
+    background-color: #1ba1e2;
+    color: white;
+}
+
+#houseButton{
+    background-color: #f09609;
+    color: white;
+}
+
+#casinoButton{
+    background-color: #a200ff;
+    color: white;
+}
+
+#playAgainButton{
+    margin: 20px;
+    background-color: #ff0097;
+    color: white;
+}
+
+

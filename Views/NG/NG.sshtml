@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+         <link rel="stylesheet" href="Content/style.css"/>
+         <title>GNG</title>
+    </head>
+    <body>
+        <center>
+            <h1>Gold Game</h1>
+            <div id="log">
+                <h6>Total Gold: @ViewBag.gold </h6>
+                <p>@ViewBag.log</p>
+            </div>
+
+            <div class="gold">
+                <h4> Farm </h4>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="farm" />
+                    <input id="farmButton" type="submit" value="Find Gold!"/>
+                </form>
+            </div>
+
+            <div class="gold">
+                <h4> Casino </h4>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="casino" />
+                    <input id="casinoButton" type="submit" value="Find Gold!"/>
+                </form>
+            </div>
+
+            <div class="gold">
+                <h4> House </h4>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="house" />
+                    <input id="houseButton" type="submit" value="Find Gold!"/>
+                </form>
+            </div>
+
+            <div class="gold">
+                <h4> Cave </h4>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="cave" />
+                    <input id="caveButton" type="submit" value="Find Gold!"/>
+                </form>
+            </div>
+            
+            <form action="/clear" method="post">
+                <input id="playAgainButton" type="submit" value="Play Again"/>
+            </form>
+         
+        </center>
+    </body>
+</html>
